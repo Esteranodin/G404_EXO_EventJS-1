@@ -1,8 +1,8 @@
 const boiteDialogue = document.querySelector('#lastname');
 
 boiteDialogue.addEventListener("keyup", handleAddBoite);
-    
-    function handleAddBoite (event) {
+
+function handleAddBoite(event) {
     window.alert(event.key);
 };
 
