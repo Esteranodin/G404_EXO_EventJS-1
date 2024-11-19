@@ -1,6 +1,8 @@
-const buttonRAZ = document.querySelector('button');
+const buttonRAZ = document.querySelector('#raz');
 
-buttonRAZ.addEventListener('click', function handleResetAll () {
+buttonRAZ.addEventListener('click', handleResetAll);
+    
+    function handleResetAll () {
     let inputs = document.querySelectorAll('input');
 inputs.forEach(input => {input.value = ''});
-});
+};
